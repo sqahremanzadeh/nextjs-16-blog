@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "honorable-grasshopper-84.convex.cloud",
+        hostname: "sleek-chicken-830.convex.cloud",
         protocol: "https",
         port: "",
       },
