@@ -52,7 +52,7 @@ async function LoadBlogsList() {
                 post.imageUrl ??
                 "https://honorable-grasshopper-84.convex.cloud/api/storage/9dcaa517-9ad7-4df3-8ed8-39f1b025df3b"
               }
-              alt="Lana Rhoades"
+              alt={post.title}
               fill
               className="rounded-t-lg object-cover object-top transition-[object-position] duration-700 ease-in-out
          hover:object-bottom"
