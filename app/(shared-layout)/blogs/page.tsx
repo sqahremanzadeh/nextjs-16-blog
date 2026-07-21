@@ -4,7 +4,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { api } from "@/convex/_generated/api";
 import { fetchQuery } from "convex/nextjs";
 import { Metadata } from "next";
-import { cacheLife, cacheTag } from "next/cache";
 import Image from "next/image";
 import Link from "next/link";
 import { connection } from "next/server";
@@ -31,9 +30,9 @@ export default function blogsPage() {
           Insights, thoughts and trends from our team!
         </p>
       </div>
-      {/* <Suspense fallback={<SekeletonLoadingUi />}> */}
-      <LoadBlogsList />
-      {/* </Suspense> */}
+      <Suspense fallback={<SekeletonLoadingUi />}>
+        <LoadBlogsList />
+      </Suspense>
     </div>
   );
 }
