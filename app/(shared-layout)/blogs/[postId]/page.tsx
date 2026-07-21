@@ -71,7 +71,7 @@ export default async function PostIdRoute({ params }: PostIdRouteProps) {
         <Image
           src={
             post.imageUrl ??
-            "https://honorable-grasshopper-84.convex.cloud/api/storage/9dcaa517-9ad7-4df3-8ed8-39f1b025df3b"
+            "https://sleek-chicken-830.convex.cloud/api/storage/472af556-64b6-4f28-8b0d-9a48fc377936"
           }
           alt={post.title}
           fill
